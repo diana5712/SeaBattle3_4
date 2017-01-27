@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="192.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.kpi.tef.controller.PlayerModeController">
+<children>
+    <Pane layoutX="1.0" prefHeight="278.0" prefWidth="314.0">
+        <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="87.0" layoutY="21.0" prefHeight="44.0" prefWidth="141.0" text="Choose player mode:" textAlignment="CENTER" />
+            <RadioButton fx:id="withComputerButton" layoutX="39.0" layoutY="65.0" mnemonicParsing="false" text="With computer" />
+            <RadioButton fx:id="withHumanButton" layoutX="197.0" layoutY="65.0" mnemonicParsing="false" text="With human" />
+            <Button fx:id="applyBut" layoutX="126.0" layoutY="222.0" mnemonicParsing="false" onAction="#applyPlayerMode" prefHeight="32.0" prefWidth="62.0" text="Apply" />
+            <RadioButton fx:id="respublicaFieldMode" layoutX="197.0" layoutY="171.0" mnemonicParsing="false" text="Respublica" />
+            <RadioButton fx:id="alphabetFieldMode" layoutX="39.0" layoutY="171.0" mnemonicParsing="false" text="Alphabet" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="87.0" layoutY="127.0" prefHeight="44.0" prefWidth="141.0" text="Choose field mode:" textAlignment="CENTER" />
+        </children>
+    </Pane>
+</children>
+</AnchorPane>
